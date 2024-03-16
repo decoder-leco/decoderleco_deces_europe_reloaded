@@ -2599,7 +2599,7 @@ rm(b__ined_covid_data_group_prec)
 
 b__es_deces_week_standardises_si_pop_2020_owid_vaccination <-b__es_deces_week_standardises_si_pop_2020_owid_vaccination %>% 
   left_join(b__ined_covid_data_regroupe)
-
+# JB ICIIIIIIIIIIIIIIIIIIIII
 #-----------------------------------------------#
 #### Ajout du nom des pays et zone est-ouest ####
 #-----------------------------------------------#
