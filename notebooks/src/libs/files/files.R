@@ -1,7 +1,20 @@
+# >>> # >>> # >>> # >>> # >>> # >>> # >>> 
+# >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> 
+# >>> # >>> Any source code file MUST declare the external dependencies it's using
+# >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> # >>> 
+# >>> # >>> # >>> # >>> # >>> # >>> # >>> 
+library(curl)
+# >>> # >>> # >>> # >>> # >>> # >>> # >>> 
+# >>> # >>> # >>> # >>> # >>> # >>> # >>> 
+
 # TODO: Add comment
 # 
 ###############################################################################
 
+# >>> JB: [message] is a native R function, see https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/message
+# >>> JB: [str_sub] is a native R function, see https://www.rdocumentation.org/packages/stringr/versions/1.4.0/topics/str_sub
+# >>> JB: [readRDS] is a native R function, see https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/readRDS
+# >>> JB: [read.csv] is a native R function, see https://www.learn-r.org/r-tutorial/read-csv.php 
 ################################################################################
 # Charge un fichier CSV ou RDS et met les données dans la variable varName 
 #
@@ -50,6 +63,10 @@ a__f_loadLocalFile <- function(fileRelPath, sep) {
 	}
 }
 
+
+# >>> JB: [deparse] is a native R function, see https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/deparse
+# >>> JB: [substitute] is a native R function, see https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/substitute
+# >>> JB: [paste0] is a native R function https://rc2e.com/stringsanddates
 ################################################################################
 # Télécharger ou charge un fichier EuroStat, CSV ou zip 
 # si la variable et/ou le fichier associé n'existe pas déjà
