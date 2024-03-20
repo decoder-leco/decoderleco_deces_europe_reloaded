@@ -1,6 +1,6 @@
 # Les notebooks Jupyter
 
-```mermaid
+```
 .
 |--eurostat
 |----eurostat-demo_magec.ipynb
